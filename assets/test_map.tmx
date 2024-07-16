@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="18" height="22" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="9">
+ <editorsettings>
+  <export target="test_map..tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="babel_tiles" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="540" columns="27">
+  <image source="../../../Downloads/babel_tiles.png" width="463" height="356"/>
+ </tileset>
+ <tileset firstgid="541" name="babel_tiles" tilewidth="16" tileheight="16" spacing="2" margin="2" tilecount="475" columns="25">
+  <image source="../../../Downloads/babel_tiles.png" width="463" height="356"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="18" height="22">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,675,0,675,0,675,0,675,0,675,0,675,0,675,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,675,0,541,0,542,0,542,0,544,0,545,0,546,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,675,0,566,0,567,0,567,0,569,0,570,0,571,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,675,0,591,0,592,0,592,0,594,0,570,0,571,0,0,0,
+0,0,0,0,0,0,0,0,0,0,594,0,0,0,0,0,0,0,
+0,0,675,0,675,0,675,0,675,0,594,0,570,0,571,0,0,0,
+0,0,0,0,0,0,0,0,0,0,594,0,0,0,0,0,0,0,
+0,0,675,0,675,0,674,0,675,0,594,0,570,0,571,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,571,0,0,0,
+0,0,675,0,675,0,674,0,675,0,619,0,620,0,571,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,675,0,675,0,674,0,675,0,644,0,645,0,571,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,675,0,675,0,675,0,675,0,591,0,670,0,671,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="walls">
+  <object id="2" x="32" y="32" width="48" height="32"/>
+  <object id="3" x="80" y="32" width="32" height="112"/>
+  <object id="4" x="0" y="160" width="144" height="16"/>
+  <object id="5" x="128" y="0" width="16" height="160"/>
+  <object id="6" x="0" y="0" width="128" height="16"/>
+  <object id="7" x="0" y="16" width="16" height="144"/>
+ </objectgroup>
+</map>
